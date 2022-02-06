@@ -45,7 +45,7 @@ nil      ;; null
 
 ;; You'll rarely use symbols, I'd say, but you'll see keywords everywhere. They
 ;; are Clojure's first choice when it comes to representing elements of a fixed
-;; set of symbols. Think: enums, map keys, etc...
+;; set of symbolic values. Think: enums, map keys, etc...
 ;;
 ;; Note that there are more numeric types - but we'll cross that bridge if ever
 ;; necessary.
@@ -53,8 +53,8 @@ nil      ;; null
 ;; ### Functions
 ;;
 ;; Here are the _operators in weird places_ I've mentioned. When Clojure sees
-;; a _form_ with parentheses it will consider the first element inside the
-;; operator, and everything else operands/parameters.
+;; a _form_ with parentheses it will consider its first element the operator,
+;; and everything else operands/parameters.
 ;;
 ;; For example, simple multiplication will look like this:
 
@@ -221,7 +221,7 @@ data
 (name->number :two)
 (map name->number [:one :one :two])
 
-;; If you want to rip a map apart, you monster:
+;; If you want to rip a map apart (you monster) this is how:
 
 (keys name->number)
 (vals name->number)
