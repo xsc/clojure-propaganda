@@ -82,14 +82,14 @@ nil      ;; null
 ;; There is no `return` in Clojure - the last value of the chosen code path is
 ;; what is returned. Consider a similar function:
 
-(defn make-realistic-but-trust-developers-for-easy-tasks
+(defn make-realistic-but-trust-estimate-for-easy-tasks
   [estimate]
   (if (<= estimate 2)
     estimate
     (* estimate 2)))
 
-(make-realistic-but-trust-developers-for-easy-tasks 2)
-(make-realistic-but-trust-developers-for-easy-tasks 5)
+(make-realistic-but-trust-estimate-for-easy-tasks 2)
+(make-realistic-but-trust-estimate-for-easy-tasks 5)
 
 ;; Here, we can end up in one of two code paths, which both will return the
 ;; value of their last (and only) expression. Basically, any `if` in Clojure
