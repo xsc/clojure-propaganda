@@ -41,7 +41,7 @@
 ;; that the cursor is currently in.
 ;;
 ;; There are also test runners that can run testcases whenever something
-;; changes. One of these is [kaocha] (https://github.com/lambdaisland/kaocha)
+;; changes. One of these is [kaocha](https://github.com/lambdaisland/kaocha)
 ;; which is set up for this repository. You can try the following on the
 ;; command line: `lein kaocha --watch`
 ;;

@@ -7,7 +7,7 @@
 
 ;; ## Our first function
 ;;
-;; Merge sort is a recursive sorting algorith and works like this:
+;; Merge sort is a recursive sorting algorithm and works like this:
 ;;
 ;; 1. If the sequence has less than two elements it's already sorted.
 ;; 2. Otherwise, split the sequence into two parts and apply merge sort to each.
